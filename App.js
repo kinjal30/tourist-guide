@@ -9,7 +9,7 @@ const GooglePlacesInput = () => {
   return (
     <GooglePlacesAutocomplete
       placeholder='Search'
-      minLength={2} // minimum length of text to search
+      minLength={2}
       autoFocus={false}
       returnKeyType={'search'} // Can be left out for default return key https://facebook.github.io/react-native/docs/textinput.html#returnkeytype
       listViewDisplayed='auto'    // true/false/undefined
